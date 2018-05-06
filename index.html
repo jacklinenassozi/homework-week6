@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button id="displayRepos">Show All Repositories</button>
+        <div class="input-group ">
+            <input class="form-control" placeholder="Search" name="srch-term" id="search-term" type="text">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="showRepoButton">
+                    <i class="fas fa-search" class="text-white"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="reposDiv">
+            <ul id="repositories">
+            </ul>
+        </div>
+        <div id="contributDiv">
+            <ul id="contributors">
+            </ul>
+        </div>
+    </main>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
+
